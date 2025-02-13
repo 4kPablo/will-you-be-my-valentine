@@ -11,7 +11,7 @@ I built this for **fun & learning**. If you fork or modify it:
 ❌ **DO NOT try to profit from free content**  
 
  **If I find people selling this project, I will take action to prevent unauthorized use.**  
-
+ **Selling or monetizing this project is strictly NOT allowed.**  
 
 
 ## How It Works 

@@ -1,24 +1,48 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f9e3e3;
-    font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f9e3e3;
+  font-family: "Arial", sans-serif;
+  padding: 20px;
 }
 
 .container {
-    text-align: center;
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .header_text {
-    font-size: 3em;
-    color: #d32f2f;
+  font-size: 3em;
+  color: #d32f2f;
+  margin: 20px;
+  word-wrap: break-word;
 }
 
 .gif_container img {
-    width: 100%; 
-    max-width: 500px; 
-    height: auto; 
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+/* Media Queries para hacer el texto responsive */
+@media screen and (max-width: 768px) {
+  .header_text {
+    font-size: 2.5em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header_text {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header_text {
+    font-size: 1.5em;
+  }
 }
